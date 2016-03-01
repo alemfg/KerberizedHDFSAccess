@@ -1,5 +1,5 @@
 # KerberizedHDFSAccess
-This repository contains sample code to access kerberized hdfs through JAAS conf
+This repository contains sample code to access kerberized hdfs through UGI
 
 # Client Config Files Setup 
 Please download the client config files core-site.xml and hdfs-site.xml to /etc/hadoop/config/client/
