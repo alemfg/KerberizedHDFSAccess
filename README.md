@@ -5,7 +5,7 @@ This repository contains sample code to access kerberized hdfs through JAAS conf
 Please download the client config files core-site.xml and hdfs-site.xml to /etc/hadoop/config/client/
 
 # Please see the excerpts from outputa of run
-{code}
+```bash
 cd /Users/vsingh/github/KerberizedHDFSAccess/KerberizedHDFSClient ; JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home M2_HOME=/Users/vsingh/Software/apache-maven-3.3.3 /Users/vsingh/Software/apache-maven-3.3.3/bin/mvn "-Dexec.args=-classpath %classpath com.amintor.hdfs.client.kerberizedhdfsclient.KerberizedHDFSClient /user/" -Dexec.executable=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/bin/java org.codehaus.mojo:exec-maven-plugin:1.2.1:exec
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -33,4 +33,4 @@ Replication:0	Owner:vijay	Group:vijay	Path:hdfs://vjsf-1.gce.cloudera.com:8020/u
 [INFO] Finished at: 2016-03-01T00:56:47-06:00
 [INFO] Final Memory: 11M/309M
 [INFO] ------------------------------------------------------------------------
-{code}
+```
